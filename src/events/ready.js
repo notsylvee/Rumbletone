@@ -10,7 +10,7 @@ module.exports = {
         {
           type: ActivityType.Custom,
           name: "customstatus",
-          state: "pond'ering",
+          state: "'pond'ering",
         },
       ],
     });
