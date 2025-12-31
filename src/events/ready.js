@@ -5,12 +5,12 @@ module.exports = {
   once: true,
   async execute(client) {
     client.user.setPresence({
-      status: "online",
+      status: "idle",
       activities: [
         {
           type: ActivityType.Custom,
           name: "customstatus",
-          state: "rumble",
+          state: "pond'ering",
         },
       ],
     });
