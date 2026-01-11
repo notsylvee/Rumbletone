@@ -20,6 +20,7 @@ module.exports = {
         `yuh huh`,
         `YASSSS`
       ];
+      const response = msg[Math.floor(Math.random() * msg.length)];
       if (message.content.toLowerCase().startsWith("rumbletone") && message.content.toLowerCase().endsWith("?"))
         {message.channel.send(`${response}`)}
     },
